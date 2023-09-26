@@ -5,7 +5,6 @@ export namespace UserNS {
         userName: string,
         email: string
         password: string,
-        createdAt: Date,
         role: 'user' | 'admin' | 'editor'
     }
 
